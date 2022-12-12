@@ -1,0 +1,19 @@
+Pourquoi existe-t-il des patrons d'architecture logicielle ? Ne pouvons-nous simplement écrire du code et voir comment il évolue ? L'utilisation de patrons connus présente des avantages significatifs. Nous pouvons le comparer aux plans d'une maison. Vous pourriez construire la maison sans cela et vous pourriez vous retrouver avec quelque chose d'assez bien. Mais si vous voulez construire quelque chose de plus grand et de plus complexe, vous aurez besoin d'un plan solide. Ainsi, vous pourrez construire quelque chose qui durera plus longtemps. L'utilisation de patrons connus rendra votre code reconnaissable par les autres développeurs qui rejoindront le projet plus tard. Il leur est ainsi plus facile de se mettre à niveau, ce qui est intéressant pour l'ensemble de l'organisation. Les développeurs expérimentés doivent passer moins de temps à encadrer et les nouveaux peuvent devenir plus facilement productifs. Souvent, ces patrons sont également plus faciles à maintenir et à étendre ; vous utilisez l'expérience et la sagesse collectives des nombreux développeurs qui vous ont précédé. Ces patrons figurent dans de nombreux ouvrages et documents. Si vous avez des questions à leur sujet, il est donc facile de trouver des informations. Connaître plusieurs patrons d'architecture logicielle signifie que vous pouvez les appliquer à votre projet. Cela vous permet de peser le pour et le contre des différentes approches et cela peut vous aider à identifier les améliorations que vous pouvez apporter à l'architecture actuelle de votre projet. Tous ces points vous permettent de devenir un membre plus productif de l'équipe et de rendre l'équipe dans son ensemble plus productive. Cela ne signifie pas qu'un patron spécifique sera la seule solution à votre problème. Cela ne garantit pas non plus que ce patron vous aidera. C'est juste que pour des problèmes similaires, certains patrons se sont révélés très utiles. Ce sera donc un bon point de départ pour vous aussi. Si un patron choisi s'avère être une mauvaise solution dans votre cas, vous pouvez alors adopter une approche différente. Mais même avec ces dangers possibles, les patrons d'architecture logicielle en valent la peine. Ils amélioreront vos applications et vous aussi en tant que développeur.
+
+Paysage
+	-Monolith
+	-N-tier
+	-Architecture orientée services (SOA)
+	-Microservices
+	-Serverless
+	-Peer-to-Peer
+Structure
+	-Couches
+	-Micronoyau (microkernel)
+	-Command Query Responsibility Segregation (CQRS)
+	-Event sourcing
+	-CQRS + Event Sourcing
+Interface
+	-MVC
+	-MVP (presenter)
+	-MVVM
